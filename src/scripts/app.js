@@ -5,7 +5,19 @@ angular.module('MedicalTrain', ['ui.router'])
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'views/home.html'
+                    views: {
+                        '': {
+                            templateUrl: 'views/home.html'
+                        },
+                        '@home': {
+                            templateUrl: 'views/homeContent.html'
+                        }
+                    }
+                })
+                .state('componentsTest', {
+                    url: '/componentsTest',
+                    templateUrl: 'views/componentsTest.html',
+                    parent: 'home'
                 });
             $urlRouterProvider.otherwise('home');
         }
