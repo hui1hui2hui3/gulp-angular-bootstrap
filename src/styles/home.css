@@ -1,0 +1,17 @@
+.ky-home-footer ul>li>a {
+	padding-left: 0;
+}
+.header-pod {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.container-pod {
+	padding-top: 72px;
+	padding-bottom: 72px;
+}
+.feature {
+	border-bottom: 1px solid rgb(229, 229, 229);
+}
+.bg-footer {
+	background-color: rgb(230, 230, 230);
+}
