@@ -21,8 +21,8 @@
 }
 
 .back-to-top {
-	display: block;
-	position: fixed;
+    display: block;
+    position: fixed;
     right: 10px;
     bottom: 10px;
     background: rgba(230, 126, 34, 0.6);
@@ -30,10 +30,9 @@
     text-align: center;
     border-radius: 2px;
     z-index: 1;
-}
-
-.back-to-top span {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
 }
